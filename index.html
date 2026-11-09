@@ -324,6 +324,60 @@
     const recipesData = [
       {
         id: 1,
+        title: "Côtes de porc à la crème moutarde et riz",
+        image: "Cotes_de_porc_creme_moutarde_riz.png",
+        prepTime: "37 min",
+        difficulty: "Facile",
+        servings: 1,
+        totalPrice: 2.305,
+        ingredients: ["côtes de porc", "crème fraîche", "moutarde", "riz", "beurre"],
+        ingredientsDetails: [
+          { name: "Côtes de porc - 200g", price: "1.99 €" },
+          { name: "1 verre de riz (environ 100g à 120g pour 2 personnes)", price: "0.119 €" },
+		  { name: "2 c-à-soupe de crème fraîche (environ 5 cl)", price: "0.119 €" },
+          { name: "1 c-à-café de moutarde (environ 10 g)", price: "0.02 €" },
+		  { name: "5g de beurre", price: "0.047 €" },
+		  { name: "Une pincée de sel, poivre", price: "0,01 €" }
+        ],
+        steps: [
+          "Faites bouillir une casserole d'eau salée. Plongez-y le riz et laissez-le cuire selon le temps indiqué sur le paquet. Une fois cuit, égouttez-le et réservez-le au chaud.",
+          "Faites fondre les 5 g de beurre dans une poêle à feu moyen/vif.",
+          "Déposez les côtes de porc et faites-les cuire de chaque côté (comptez environ 3 à 5 minutes par face selon leur épaisseur, jusqu'à ce qu'elles soient bien dorées et cuites à cœur).",
+          "Dans la même poêle encore chaude (à feu doux), ajoutez la crème fraîche et la moutarde.",
+		  "Salez, poivrez, et laissez chauffer 1 à 2 minutes en remuant jusqu'à obtenir une sauce bien onctueuse et chaude.",
+		  "Dans votre assiette, disposez une portion de riz, une côte de porc, et nappez le tout généreusement avec la sauce à la crème de moutarde. Bon appétit !"
+        ],
+        chefTip: "La côte de porc sèche vite si elle est trop cuite. Pour garder une viande tendre et juteuse, saisissez-la bien à feu moyen-vif au départ, mais retirez-la dès qu'elle est cuite à cœur."
+      },
+	  {
+        id: 2,
+        title: "Tagliatelles au saumon",
+        image: "tagliatelles_saumon.png",
+        prepTime: "30 min",
+        difficulty: "Facile",
+        servings: 1,
+        totalPrice: 7.195,
+        ingredients: ["saumon", "crème fraîche", "tagliatelles", "beurre", "parmesan rapé"],
+        ingredientsDetails: [
+          { name: "250g de saumon frais", price: "6.29 €" },
+          { name: "4 c-à-soupe de crème fraîche (environ 7cl)", price: "0.238 €" },
+		  { name: "100g de tagliatelles fraîches", price: "0.51	 €" },
+          { name: "Parmesan râpé", price: "0.1 €" },
+		  { name: "5g de beurre", price: "0.047 €" },
+		  { name: "Une pincée de sel, poivre", price: "0,01 €" }
+        ],
+        steps: [
+          "Cuire les pâtes à l'eau bouillante salée selon le temps indiqué sur le paquet.",
+          "Pendant ce temps, faire fondre le beurre dans une casserole et y ajouter la crème.",
+          "Quand la crème est bien chaude, y plonger les dés de saumon, ils doivent cuire à la chaleur de la crème.",
+          "Quand ils sont cuits, ajouter le sel et le poivre.",
+		  "Egoutter les pâtes, les disposer dans un grand plat ronde et napper de crème au saumon.",
+		  "Servir avec du parmesan."
+        ],
+        chefTip: "Dans la poêle ayant servi pour le saumon, faites suer une échalote finement émincée et éventuellement une gousse d'ail. Déglacez avec un trait de vin blanc sec (ou un filet de jus de citron) pour apporter de l'acidité et casser le gras de la crème."
+      },
+	  {
+        id: 3,
         title: "Œuf au plat",
         image: "oeuf.png",
         prepTime: "9 min",
@@ -345,53 +399,8 @@
         ],
         chefTip: "À feu trop vif, le dessous du blanc va brûler et durcir (voire faire des bulles brunes) avant que le dessus ne soit cuit. Visez un feu moyen à doux."
       },
-      {
+	  {
         id: 4,
-        title: "Nouilles",
-        image: "nouille.png",
-        prepTime: "14 min",
-        difficulty: "Très Facile",
-        servings: 1,
-        totalPrice: 0.60,
-        ingredients: ["nouilles"],
-        ingredientsDetails: [
-          { name: "100g de nouilles", price: "0.59 €" },
-          { name: "1 litre d'eau, une pincée de sel", price: "0.01 €" }
-        ],
-        steps: [
-          "Verser l'eau dans votre casserole et porter à ébullition à feu vif.",
-          "Quand l'eau bout à gros bouillons, ajouter le sel.",
-          "Déposer les nouilles dans l'eau bouillante. Remuer immédiatement, délicatement avec une cuillère ou des baguettes pour éviter qu'elles ne se collent entre elles au fond.",
-          "Suivre le temps indiqué sur le paquet (généralement entre 6 à 10 minutes).",
-		  "Verser les nouilles dans l'égouttoir."
-        ],
-        chefTip: "Pour réussir la cuisson de n'importe quel type de pâtes ou nouilles, les chefs italiens utilisent une formule infaillible à retenir par cœur : 1 – 10 – 100. 1 Litre d'eau – 10 g de Gros Sel – 100 g de Pâtes"
-      },
-	  {
-        id: 3,
-        title: "Riz",
-        image: "riz.png",
-        prepTime: "25 min",
-        difficulty: "Facile",
-        servings: 2,
-        totalPrice: 0.129,
-        ingredients: ["riz"],
-        ingredientsDetails: [
-          { name: "1 verre de riz (environ 100g à 120g pour 2 personnes)", price: "0.119 €" },
-          { name: "1,5 à 2 verres d'eau, 1 pincée de sel", price: "0.01 €" }
-        ],
-        steps: [
-          "Mettez le riz dans une passoire et rincez-le à l'eau froide en remuant avec la main jusqu'à ce que l'eau devienne claire. Cela permet d'enlever l'excès d'amidon pour éviter qu'il ne colle.",
-          "Versez l'eau (comptez généralement 1,5 volume d'eau pour 1 volume de riz) et ajoutez la pincée de sel.",
-          "Versez le riz et mélangez pendant 1 à 2 minutes jusqu'à ce que les grains deviennent légèrement translucides.",
-          "Baissez le feu au minimum et couvrez hermétiquement. Laissez cuire tranquillement pendant 10 à 12 minutes sans jamais soulever le couvercle (pour garder la vapeur).",
-		  "Coupez le feu et laissez la casserole couverte pendant 5 minutes hors du feu. Le riz va finasser sa cuisson en douceur.",
-		  "Égouttez le riz dans une passoire et servir aussitôt."
-        ],
-        chefTip: "Pour réussir un riz moelleux à tous les coups sans qu'il ne colle, oublie les bains d'eau bouillante et adopte la méthode par absorption : 1 Volume de Riz – 1,5 Volume d'Eau – Zéro couvercle soulevé"
-      },
-	  {
-        id: 2,
         title: "Sauce moutarde",
         image: "sauce_moutarde.png",
         prepTime: "7 min",
@@ -413,12 +422,57 @@
 		  "Goûtez, ajustez l'assaisonnement avec une pincée de sel et un tour de moulin à poivre, puis servez immédiatement bien chaud !"
         ],
         chefTip: "Si vous venez de poêler de la viande, ne lavez pas la poêle ! Versez directement la crème et la moutarde dedans pour déglacer : vous obtiendrez une sauce 10 fois plus savoureuse en 60 secondes chrono."
+      },
+	  {
+        id: 5,
+        title: "Riz",
+        image: "riz.png",
+        prepTime: "25 min",
+        difficulty: "Facile",
+        servings: 2,
+        totalPrice: 0.129,
+        ingredients: ["riz"],
+        ingredientsDetails: [
+          { name: "1 verre de riz (environ 100g à 120g pour 2 personnes)", price: "0.119 €" },
+          { name: "1,5 à 2 verres d'eau, 1 pincée de sel", price: "0.01 €" }
+        ],
+        steps: [
+          "Mettez le riz dans une passoire et rincez-le à l'eau froide en remuant avec la main jusqu'à ce que l'eau devienne claire. Cela permet d'enlever l'excès d'amidon pour éviter qu'il ne colle.",
+          "Versez l'eau (comptez généralement 1,5 volume d'eau pour 1 volume de riz) et ajoutez la pincée de sel.",
+          "Versez le riz et mélangez pendant 1 à 2 minutes jusqu'à ce que les grains deviennent légèrement translucides.",
+          "Baissez le feu au minimum et couvrez hermétiquement. Laissez cuire tranquillement pendant 10 à 12 minutes sans jamais soulever le couvercle (pour garder la vapeur).",
+		  "Coupez le feu et laissez la casserole couverte pendant 5 minutes hors du feu. Le riz va finasser sa cuisson en douceur.",
+		  "Égouttez le riz dans une passoire et servir aussitôt."
+        ],
+        chefTip: "Pour réussir un riz moelleux à tous les coups sans qu'il ne colle, oublie les bains d'eau bouillante et adopte la méthode par absorption : 1 Volume de Riz – 1,5 Volume d'Eau – Zéro couvercle soulevé"
+      },
+      {
+        id: 6,
+        title: "Nouilles",
+        image: "nouille.png",
+        prepTime: "14 min",
+        difficulty: "Très Facile",
+        servings: 1,
+        totalPrice: 0.60,
+        ingredients: ["nouilles"],
+        ingredientsDetails: [
+          { name: "100g de nouilles", price: "0.59 €" },
+          { name: "1 litre d'eau, une pincée de sel", price: "0.01 €" }
+        ],
+        steps: [
+          "Verser l'eau dans votre casserole et porter à ébullition à feu vif.",
+          "Quand l'eau bout à gros bouillons, ajouter le sel.",
+          "Déposer les nouilles dans l'eau bouillante. Remuer immédiatement, délicatement avec une cuillère ou des baguettes pour éviter qu'elles ne se collent entre elles au fond.",
+          "Suivre le temps indiqué sur le paquet (généralement entre 6 à 10 minutes).",
+		  "Verser les nouilles dans l'égouttoir."
+        ],
+        chefTip: "Pour réussir la cuisson de n'importe quel type de pâtes ou nouilles, les chefs italiens utilisent une formule infaillible à retenir par cœur : 1 – 10 – 100. 1 Litre d'eau – 10 g de Gros Sel – 100 g de Pâtes"
       }
     ];
 
     const modalTotalPriceBadge = document.getElementById('modal-total-price-badge');
 
-    const popularIngredientsList = ["œuf", "nouilles", "sauce"];
+    const popularIngredientsList = ["œuf", "nouilles", "sauce", "porc", "riz"];
 
     // --- ÉTAT DE L'APPLICATION ---
     let selectedIngredients = [];
